@@ -1,0 +1,4 @@
+Premain-Class: com.github.jonathanxd.awtaltgrpatch.Main
+Agent-Class: com.github.jonathanxd.awtaltgrpatch.Main
+Can-Retransform-Classes: true
+Can-Redefine-Classes: true
