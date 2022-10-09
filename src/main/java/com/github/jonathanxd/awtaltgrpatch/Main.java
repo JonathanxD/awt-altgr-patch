@@ -29,7 +29,6 @@ public class Main {
                 )
                 .with(AgentBuilder.TypeStrategy.Default.REBASE)
                 .with(AgentBuilder.RedefinitionStrategy.REDEFINITION)
-                .with(AgentBuilder.Listener.StreamWriting.toSystemOut())
                 .ignore(ElementMatchers.none())
                 .installOn(inst);
 
